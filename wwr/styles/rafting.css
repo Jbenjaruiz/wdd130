@@ -1,4 +1,4 @@
-/* Define color variables */
+
 :root {
     --primary-color: #505033;
     --secondary-color: #264969;
@@ -6,16 +6,15 @@
     --accent2-color: #b4cde4;
 }
 
-/* Basic resets and font imports */
 body {
-    font-family: 'Roboto', sans-serif; /* Text font: Roboto */
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: var(--accent1-color); /* Use variable */
-    color: var(--primary-color); /* Use variable */
+    background-color: var(--accent1-color); 
+    color: var(--primary-color);
 }
 
-/* Header styling */
+
 header img {
     width: 100%;
     height: auto;
@@ -25,53 +24,51 @@ nav {
     display: flex;
     justify-content: flex-start;
     padding: 10px;
-    background-color: var(--secondary-color); /* Use variable */
+    background-color: var(--secondary-color); 
 }
 
 nav a {
     margin-right: 15px;
     text-decoration: none;
-    color: var(--accent1-color); /* Use variable */
+    color: var(--accent1-color); 
     font-weight: bold;
     font-size: 1rem;
 }
 
-/* Limit the width of the page */
+
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     margin-bottom: 20px;
-    background-color: var(--accent2-color); /* Use variable */
+    background-color: var(--accent2-color); 
 }
 
 .hero img {
     display: block;
     width: 100%;
-    height: auto; /* Maintain aspect ratio of the image */
-    object-fit: cover; /* Ensure the image covers the entire container if needed */
+    height: auto;
+    object-fit: cover; 
 }
 
-/* Styling for the h1 heading */
+
 .hero h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--accent1-color); /* Use variable */
+    color: var(--accent1-color); 
     font-size: 3.5rem;
-    font-family: 'Georgia', serif; /* Heading font: Georgia */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+    font-family: 'Georgia', serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     z-index: 10;
     text-align: center;
 }
 
-/* Dark overlay for hero section */
 .hero::before {
     content: "";
     position: absolute;
@@ -79,26 +76,25 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 5;
 }
 
-/* Styling for the article inside the hero */
 .hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.7); 
     color: white;
     padding: 20px;
     z-index: 9; 
     width: 300px;
-    border-radius: 8px; /* Optional styling */
+    border-radius: 8px; 
 }
 
 .hero article img {
-    float: right; /* Image floats to the right of the text */
-    margin-left: 15px; /* Space between image and text */
+    float: right; 
+    margin-left: 15px; 
     width: 100px;
     height: auto;
 }
@@ -108,40 +104,36 @@ main {
     font-size: 1rem;
 }
 
-/* General heading styles */
 h2 {
-    font-family: 'Georgia', serif; /* Heading font: Georgia */
+    font-family: 'Georgia', serif; 
     font-size: 2.5rem;
-    color: var(--secondary-color); /* Use variable */
+    color: var(--secondary-color); 
     margin-bottom: 15px;
 }
 
-/* General paragraph styles */
 p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: var(--primary-color); /* Use variable */
+    color: var(--primary-color); 
 }
 
-/* Section images */
 section img {
     width: 100%;
-    max-width: 600px; /* Set a max width for images */
+    max-width: 600px; 
     height: auto;
     margin: 10px 0;
 }
 
-/* Footer and social links styling */
 footer {
     padding: 20px;
-    background-color: var(--secondary-color); /* Use variable */
-    color: var(--accent1-color); /* Use variable */
+    background-color: var(--secondary-color); 
+    color: var(--accent1-color); 
     text-align: center;
 }
 
 footer .sociallinks a {
     margin-right: 10px;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
 }
 
 footer .sociallinks img {
@@ -150,5 +142,5 @@ footer .sociallinks img {
 }
 
 footer .sociallinks a:hover {
-    opacity: 0.8; /* Optional: Add a hover effect for links */
+    opacity: 0.8; 
 }
