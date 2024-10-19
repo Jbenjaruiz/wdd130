@@ -170,6 +170,12 @@ section.adventure {
     background-color: var(--accent1-color);
 }
 
+.title-adventure {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    flex-direction: center ;
+}
+
 figure {
     text-align: center;
     margin: 0;
