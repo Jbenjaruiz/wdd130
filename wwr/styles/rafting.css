@@ -526,7 +526,7 @@ main {
 }
 
 .call-to-action .cta-button {
-  background-color: var(--cta-color);
+  background-color: white;
   color: var(--secondary-color);
   padding: 10px 20px;
   text-decoration: none;
@@ -536,7 +536,7 @@ main {
 }
 
 .call-to-action .cta-button:hover {
-  background-color: var(--cta-hover);
+  background-color: rgb(230, 235, 240);
 }
 
 /* About Section with Grid Layout */
